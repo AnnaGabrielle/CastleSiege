@@ -10,6 +10,7 @@ public class AG_GameLevel : MonoBehaviour {
 	[SerializeField] GameObject ag_NextLevel;
 	[SerializeField] GameObject ag_BackMainMenu;
 	[SerializeField] GameObject ag_BackgroundImageWin;
+	[SerializeField] GameObject ag_Animation;
 
 	//to disappear when winning condition is met
 	[SerializeField] GameObject ag_Paddle;
@@ -31,6 +32,7 @@ public class AG_GameLevel : MonoBehaviour {
 		ag_NextLevel.SetActive(false);
 		ag_WinLevelText.SetActive(false);
 		ag_BackgroundImageWin.SetActive(false);
+		ag_Animation.SetActive(false);
 		ag_Ball.SetActive(true);
 		ag_Paddle.SetActive(true);
 	}
@@ -61,6 +63,7 @@ public class AG_GameLevel : MonoBehaviour {
 			ag_NextLevel.SetActive(true);
 			ag_WinLevelText.SetActive(true);
 			ag_BackgroundImageWin.SetActive(true);
+			ag_Animation.SetActive(true);
 			ag_Ball.SetActive(false);
 			ag_Paddle.SetActive(false);
 
