@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: b65754ecd708585418753c62d8bc4667
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fire Animation_0
+    21300002: Fire Animation_1
+    21300004: Fire Animation_2
+    21300006: Fire Animation_3
+    21300008: Fire Animation_4
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 32, y: 29, z: 0, w: 29}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire Animation_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 74
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e29a234a6ce11049975a0004c54658d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Animation_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 74
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c77ee123edb90429458ebe9b89ffa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Animation_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 42
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f582bdcf60eacfb46bdade9895b2cb8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Animation_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 42
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1f573f5fc57ab47b091fb653bb6d82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Animation_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 10
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17253c01de9168241a7238506abdbba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -11, y: -29}
+      - {x: -13, y: -29}
+      - {x: -14, y: -27}
+      - {x: -19, y: -25}
+      - {x: -21, y: -27}
+      - {x: -20, y: -31}
+      - {x: -22, y: -33}
+      - {x: -22, y: -34}
+      - {x: -21, y: -37}
+      - {x: -18, y: -40}
+      - {x: -15, y: -40}
+      - {x: -10, y: -36}
+      - {x: -11, y: -33}
+      - {x: -10, y: -32}
+    - - {x: -9, y: 2}
+      - {x: -9, y: 3}
+      - {x: -11, y: 5}
+      - {x: -13, y: 4}
+      - {x: -17, y: 7}
+      - {x: -16, y: 10}
+      - {x: -18, y: 12}
+      - {x: -21, y: 11}
+      - {x: -22, y: 6}
+      - {x: -19, y: 3}
+      - {x: -21, y: 1}
+      - {x: -21, y: -1}
+      - {x: -20, y: -2}
+      - {x: -21, y: -5}
+      - {x: -18, y: -8}
+      - {x: -14, y: -8}
+      - {x: -11, y: -5}
+      - {x: -10, y: -1}
+      - {x: -11, y: 0}
+    - - {x: 22, y: 1}
+      - {x: 22, y: 2}
+      - {x: 19, y: 4}
+      - {x: 20, y: 5}
+      - {x: 18, y: 8}
+      - {x: 11, y: 4}
+      - {x: 12, y: 0}
+      - {x: 10, y: -2}
+      - {x: 10, y: -3}
+      - {x: 15, y: -8}
+      - {x: 20, y: -8}
+      - {x: 22, y: -6}
+      - {x: 22, y: -4}
+      - {x: 20, y: -1}
+    - - {x: -15, y: 9}
+      - {x: -13, y: 7}
+      - {x: -10, y: 8}
+      - {x: -8, y: 13}
+      - {x: -11, y: 15}
+      - {x: -15, y: 11}
+    - - {x: 20, y: 12}
+      - {x: 23, y: 13}
+      - {x: 23, y: 16}
+      - {x: 20, y: 17}
+      - {x: 18, y: 15}
+    - - {x: -10, y: 35}
+      - {x: -9, y: 37}
+      - {x: -12, y: 39}
+      - {x: -14, y: 37}
+      - {x: -17, y: 40}
+      - {x: -18, y: 40}
+      - {x: -21, y: 37}
+      - {x: -21, y: 36}
+      - {x: -23, y: 33}
+      - {x: -23, y: 28}
+      - {x: -21, y: 25}
+      - {x: -18, y: 24}
+      - {x: -14, y: 24}
+      - {x: -10, y: 27}
+      - {x: -10, y: 32}
+      - {x: -9, y: 34}
+    - - {x: 22, y: 32}
+      - {x: 20, y: 34}
+      - {x: 20, y: 36}
+      - {x: 18, y: 38}
+      - {x: 16, y: 38}
+      - {x: 15, y: 37}
+      - {x: 13, y: 41}
+      - {x: 10, y: 40}
+      - {x: 10, y: 36}
+      - {x: 9, y: 34}
+      - {x: 11, y: 32}
+      - {x: 10, y: 29}
+      - {x: 10, y: 27}
+      - {x: 11, y: 25}
+      - {x: 14, y: 24}
+      - {x: 19, y: 24}
+      - {x: 22, y: 27}
+      - {x: 21, y: 29}
+      - {x: 22, y: 30}
+    - - {x: 18, y: 39}
+      - {x: 21, y: 36}
+      - {x: 24, y: 37}
+      - {x: 24, y: 39}
+      - {x: 21, y: 42}
+      - {x: 19, y: 42}
+    physicsShape:
+    - - {x: -11, y: -29}
+      - {x: -13, y: -29}
+      - {x: -14, y: -27}
+      - {x: -19, y: -25}
+      - {x: -21, y: -27}
+      - {x: -20, y: -31}
+      - {x: -22, y: -33}
+      - {x: -22, y: -34}
+      - {x: -21, y: -37}
+      - {x: -18, y: -40}
+      - {x: -15, y: -40}
+      - {x: -10, y: -36}
+      - {x: -11, y: -33}
+      - {x: -10, y: -32}
+    - - {x: -9, y: 2}
+      - {x: -9, y: 3}
+      - {x: -11, y: 5}
+      - {x: -13, y: 4}
+      - {x: -17, y: 7}
+      - {x: -16, y: 10}
+      - {x: -18, y: 12}
+      - {x: -21, y: 11}
+      - {x: -22, y: 6}
+      - {x: -19, y: 3}
+      - {x: -21, y: 1}
+      - {x: -21, y: -1}
+      - {x: -20, y: -2}
+      - {x: -21, y: -5}
+      - {x: -18, y: -8}
+      - {x: -14, y: -8}
+      - {x: -11, y: -5}
+      - {x: -10, y: -1}
+      - {x: -11, y: 0}
+    - - {x: 22, y: 1}
+      - {x: 22, y: 2}
+      - {x: 19, y: 4}
+      - {x: 20, y: 5}
+      - {x: 18, y: 8}
+      - {x: 11, y: 4}
+      - {x: 12, y: 0}
+      - {x: 10, y: -2}
+      - {x: 10, y: -3}
+      - {x: 15, y: -8}
+      - {x: 20, y: -8}
+      - {x: 22, y: -6}
+      - {x: 22, y: -4}
+      - {x: 20, y: -1}
+    - - {x: -15, y: 9}
+      - {x: -13, y: 7}
+      - {x: -10, y: 8}
+      - {x: -8, y: 13}
+      - {x: -11, y: 15}
+      - {x: -15, y: 11}
+    - - {x: 20, y: 12}
+      - {x: 23, y: 13}
+      - {x: 23, y: 16}
+      - {x: 20, y: 17}
+      - {x: 18, y: 15}
+    - - {x: -10, y: 35}
+      - {x: -9, y: 37}
+      - {x: -12, y: 39}
+      - {x: -14, y: 37}
+      - {x: -17, y: 40}
+      - {x: -18, y: 40}
+      - {x: -21, y: 37}
+      - {x: -21, y: 36}
+      - {x: -23, y: 33}
+      - {x: -23, y: 28}
+      - {x: -21, y: 25}
+      - {x: -18, y: 24}
+      - {x: -14, y: 24}
+      - {x: -10, y: 27}
+      - {x: -10, y: 32}
+      - {x: -9, y: 34}
+    - - {x: 22, y: 32}
+      - {x: 20, y: 34}
+      - {x: 20, y: 36}
+      - {x: 18, y: 38}
+      - {x: 16, y: 38}
+      - {x: 15, y: 37}
+      - {x: 13, y: 41}
+      - {x: 10, y: 40}
+      - {x: 10, y: 36}
+      - {x: 9, y: 34}
+      - {x: 11, y: 32}
+      - {x: 10, y: 29}
+      - {x: 10, y: 27}
+      - {x: 11, y: 25}
+      - {x: 14, y: 24}
+      - {x: 19, y: 24}
+      - {x: 22, y: 27}
+      - {x: 21, y: 29}
+      - {x: 22, y: 30}
+    - - {x: 18, y: 39}
+      - {x: 21, y: 36}
+      - {x: 24, y: 37}
+      - {x: 24, y: 39}
+      - {x: 21, y: 42}
+      - {x: 19, y: 42}
+    bones: []
+    spriteID: 50c4f5efd6fdb514d9e8c63be1daa90d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
