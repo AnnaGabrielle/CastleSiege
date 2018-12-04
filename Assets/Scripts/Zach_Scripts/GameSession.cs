@@ -10,6 +10,7 @@ public class GameSession : MonoBehaviour {
     [SerializeField] int pointsPerBlockDestroyed = 83;
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] bool isAutoPlayEnabled;
+    [SerializeField] int ag_pointPerMinion = 20;
 
     // state variables
     [SerializeField] int currentScore = 0;
@@ -43,6 +44,11 @@ public class GameSession : MonoBehaviour {
         currentScore += pointsPerBlockDestroyed;
         scoreText.text = currentScore.ToString();
     }
+
+    public void AG_AddToScore_Minion(){
+		currentScore += ag_pointPerMinion;
+        scoreText.text = currentScore.ToString();
+	}
 
     public void ResetGame()
     {

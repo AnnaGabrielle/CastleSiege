@@ -10,7 +10,7 @@ public class AG_Block : MonoBehaviour {
 
 	int ag_MaxHit;
 	AG_GameLevel ag_level;
-	AG_GameStatus ag_GameStatus;
+	GameSession ag_GameStatus;
 
 	//state reference
 	int ag_TimeHit; 
@@ -18,7 +18,7 @@ public class AG_Block : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		ag_level = GameObject.FindGameObjectWithTag("AG_Level").GetComponent<AG_GameLevel>();
-		ag_GameStatus = GameObject.FindGameObjectWithTag("AG_GameStatus").GetComponent<AG_GameStatus>();
+		ag_GameStatus = GameObject.FindGameObjectWithTag("AG_GameStatus").GetComponent<GameSession>();
 		AG_CountingBlocks();
 		ag_MaxHit = ag_hitSprite.Length + 1;
 
@@ -48,7 +48,7 @@ public class AG_Block : MonoBehaviour {
 			if(ag_TimeHit >= ag_MaxHit){
 				Destroy(gameObject);
 				ag_level.AG_BlockDestroyed();
-				ag_GameStatus.AG_AddToScore_Block();
+				ag_GameStatus.AddToScore();
 			}
 			else{
 				AG_ShowNextSprite();

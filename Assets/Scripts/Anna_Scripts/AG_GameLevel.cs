@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class AG_GameLevel : MonoBehaviour {
 
 	//To show text and button when winning condition is met
-	[SerializeField] GameObject ag_WinLevelText;
-	[SerializeField] GameObject ag_NextLevel;
-	[SerializeField] GameObject ag_BackMainMenu;
-	[SerializeField] GameObject ag_BackgroundImageWin;
-	[SerializeField] GameObject ag_Animation;
+	public GameObject ag_WinLevelText;
+	public GameObject ag_NextLevel;
+	public GameObject ag_BackMainMenu;
+	public GameObject ag_BackgroundImageWin;
+	public GameObject ag_Animation;
 
 	//to disappear when winning condition is met
 	[SerializeField] GameObject ag_Paddle;
@@ -68,5 +68,13 @@ public class AG_GameLevel : MonoBehaviour {
 			ag_Paddle.SetActive(false);
 
 		}
+	}
+
+	public void AG_NextLevel(){
+		ag_BackMainMenu.SetActive(false);
+		ag_NextLevel.SetActive(false);
+		ag_WinLevelText.SetActive(false);
+		ag_BackgroundImageWin.SetActive(false);
+		ag_Animation.SetActive(false);		
 	}
 }

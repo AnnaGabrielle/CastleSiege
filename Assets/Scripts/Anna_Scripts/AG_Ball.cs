@@ -64,6 +64,7 @@ public class AG_Ball : MonoBehaviour {
 			ag_AudioSource.PlayOneShot(ag_audioForBall);
 			ag_MyRigidbody2D.velocity += ag_velocityTweak;
 			ag_MyRigidbody2D.velocity = ag_constantVelocity * (ag_MyRigidbody2D.velocity.normalized); //to fix the velocity, so it won't be too fast after a while
+			
 		}
 	}
 

@@ -19,4 +19,5 @@ public class AG_SceneController : MonoBehaviour {
 		var ag_GameStatus = GameObject.FindGameObjectWithTag("AG_GameStatus").GetComponent<AG_GameStatus>();
 		ag_GameStatus.AG_ResetGame();
 	}
+
 }

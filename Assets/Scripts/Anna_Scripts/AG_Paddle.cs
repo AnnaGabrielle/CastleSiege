@@ -7,12 +7,12 @@ public class AG_Paddle : MonoBehaviour {
 	[SerializeField] float ag_minX = 1.95f;
 	[SerializeField] float ag_maxX = 14.33f;
 
-	AG_GameStatus ag_gameStatus;
+	GameSession ag_gameStatus;
 	AG_Ball ag_Ball;
 
 	// Use this for initialization
 	void Start () {
-		ag_gameStatus = GameObject.FindGameObjectWithTag("AG_GameStatus").GetComponent<AG_GameStatus>();
+		ag_gameStatus = GameObject.FindGameObjectWithTag("AG_GameStatus").GetComponent<GameSession>();
 		ag_Ball = GameObject.FindGameObjectWithTag("AG_Ball").GetComponent<AG_Ball>();
 	}
 	
@@ -31,7 +31,7 @@ public class AG_Paddle : MonoBehaviour {
 
 	private float AG_GetXPos(){
 		if(ag_Ball.ag_ballLaunched){
-			if(ag_gameStatus.AG_IsAutoPlayEnabled()){
+			if(ag_gameStatus.IsAutoPlayEnabled()){
 				return ag_Ball.transform.position.x;
 			}
 			else{
