@@ -13,6 +13,9 @@ TagManager:
   - AG_Level
   - AG_GameStatus
   - SceneManager
+  - Breakable
+  - Unbreakable
+  - Ag_WinCanvas
   layers:
   - Default
   - TransparentFX

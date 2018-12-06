@@ -759,7 +759,7 @@ GameObject:
   - component: {fileID: 1030841623}
   m_Layer: 0
   m_Name: Game Session
-  m_TagString: Untagged
+  m_TagString: AG_GameStatus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -779,6 +779,7 @@ MonoBehaviour:
   pointsPerBlockDestroyed: 83
   scoreText: {fileID: 1107435647}
   isAutoPlayEnabled: 0
+  ag_pointPerMinion: 20
   currentScore: 0
 --- !u!4 &1030841624
 Transform:

@@ -8,11 +8,12 @@ public class Brick : MonoBehaviour {
     [SerializeField] GameObject brickglitterEffects;
 
     Level level;
-
+    GameSession gameStatus;
     private void Start()
     {
         level = FindObjectOfType<Level>();
-        level.countBreakableBricks();
+        CountBreakableBlocks();
+        gameStatus = FindObjectOfType<GameSession>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -20,10 +21,18 @@ public class Brick : MonoBehaviour {
         DestroyBrick();
     }
 
+    private void CountBreakableBlocks()
+    {
+        if (tag == "Breakable")
+        {
+            level.countBreakableBricks();
+        }
+    }
     private void DestroyBrick()
     {
         AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
         Destroy(gameObject);
+        gameStatus.AddToScore();
         level.BrickDestroyed();
         TriggerglitterEffects();
     }

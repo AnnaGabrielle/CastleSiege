@@ -5,17 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class AG_GameLevel : MonoBehaviour {
 
-	//To show text and button when winning condition is met
-	public GameObject ag_WinLevelText;
-	public GameObject ag_NextLevel;
-	public GameObject ag_BackMainMenu;
-	public GameObject ag_BackgroundImageWin;
-	public GameObject ag_Animation;
-
-	//to disappear when winning condition is met
-	[SerializeField] GameObject ag_Paddle;
-	[SerializeField] GameObject ag_Ball;
-
 	//quantity of blocks
 	int ag_BreakableBlocks;
 	int ag_MinionBlocks;
@@ -27,15 +16,8 @@ public class AG_GameLevel : MonoBehaviour {
 	public string ag_RedMinionTAG;
 	public string ag_GreenMinionTAG;
 
-	void Awake(){
-		ag_BackMainMenu.SetActive(false);
-		ag_NextLevel.SetActive(false);
-		ag_WinLevelText.SetActive(false);
-		ag_BackgroundImageWin.SetActive(false);
-		ag_Animation.SetActive(false);
-		ag_Ball.SetActive(true);
-		ag_Paddle.SetActive(true);
-	}
+	[SerializeField] string ag_betweenScenes;
+
 	public void AG_CountBreakableBlocks(){
 		ag_BreakableBlocks++;
 	}
@@ -59,22 +41,8 @@ public class AG_GameLevel : MonoBehaviour {
 
 	public void AG_WinConditional(){
 		if(ag_BreakableBlocks <=0 && ag_MinionBlocks<=0){
-			ag_BackMainMenu.SetActive(true);
-			ag_NextLevel.SetActive(true);
-			ag_WinLevelText.SetActive(true);
-			ag_BackgroundImageWin.SetActive(true);
-			ag_Animation.SetActive(true);
-			ag_Ball.SetActive(false);
-			ag_Paddle.SetActive(false);
-
+			SceneManager.LoadScene(ag_betweenScenes);
 		}
 	}
 
-	public void AG_NextLevel(){
-		ag_BackMainMenu.SetActive(false);
-		ag_NextLevel.SetActive(false);
-		ag_WinLevelText.SetActive(false);
-		ag_BackgroundImageWin.SetActive(false);
-		ag_Animation.SetActive(false);		
-	}
 }
